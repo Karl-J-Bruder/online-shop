@@ -20,12 +20,12 @@ const BurgerMenu = ({
     const numItems = cartCTX.itemsCount;
     return (
         <StyledBurgerMenu open={open}>
-            <a href="https://nervous-mestorf-64ded5.netlify.app/">Home</a>
-            <a href="https://nervous-mestorf-64ded5.netlify.app/products">Browse Sake</a>
-            <a href="https://nervous-mestorf-64ded5.netlify.app/tours">Events {"&"}Tours</a>
-            <a href="https://nervous-mestorf-64ded5.netlify.app/view-cart">Cart({numItems})</a>
-            <a href="https://nervous-mestorf-64ded5.netlify.app/shipping">Shipping</a>
-            <a href="https://nervous-mestorf-64ded5.netlify.app/contact" >Contact us</a>
+            <a href="/">Home</a>
+            <a href="/products">Browse Sake</a>
+            <a href="/tours">Events {"&"}Tours</a>
+            <a href="/view-cart">Cart({numItems})</a>
+            <a href="/shipping">Shipping</a>
+            <a href="/contact" >Contact us</a>
         </StyledBurgerMenu>
     )
 }
