@@ -1,0 +1,67 @@
+/* #region cards slider */
+.cards-slider-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+  height: 100%;
+  max-height: 250px;
+}
+
+.cards-slider-wrapper .card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: none;
+  min-width: 100vw;
+}
+
+.single-window-slider.active-slide-0 #card-0 {
+  display: block;
+}
+
+.single-window-slider.active-slide-1 #card-1 {
+  display: block;
+}
+
+.single-window-slider.active-slide-2 #card-2 {
+  display: block;
+}
+
+.single-window-slider.active-slide-3 #card-3 {
+  display: block;
+}
+
+.cards-slider.active-slide-0 #card-0 {
+  display: block;
+  width: 100%;
+}
+
+.cards-slider.active-slide-1 #card-1 {
+  display: block;
+  width: 100%;
+}
+
+.cards-slider.active-slide-2 #card-2 {
+  display: block;
+  width: 100%;
+}
+
+.cards-slider.active-slide-3 #card-3 {
+  display: block;
+  width: 100%;
+}
+
+.card-slider.active-slide-0 #card-0 {
+  display: block;
+}
+
+.card-slider.active-slide-1 #card-1 {
+  display: block;
+}
+
+.card-slider.active-slide-2 #card-2 {
+  display: block;
+}
+/*# sourceMappingURL=Carousel.css.map */

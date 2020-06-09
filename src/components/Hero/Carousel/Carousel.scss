@@ -1,0 +1,64 @@
+/* #region cards slider */
+.cards-slider-wrapper {
+    display: flex; 
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    max-height: 250px;
+    // transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.995);
+    .card {
+      flex: 1;
+      display: none;
+      min-width: 100vw;
+      // transition: opacity 300ms linear, transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.995);
+    }
+  }
+  
+ 
+  $i: 0;
+  @for $i from 0 through 3 {
+    .single-window-slider.active-slide-#{$i} #card-#{$i} {
+      display: block;
+    }
+  }
+  
+  $i: 0;
+  @for $i from 0 through 3 {
+    .cards-slider.active-slide-#{$i} #card-#{$i} {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .card-slider.active-slide-0 #card-0 {
+    display: block;
+  }
+  
+  .card-slider.active-slide-1 #card-1 {
+    display: block;
+  }
+  
+  .card-slider.active-slide-2 #card-2 {
+    display: block;
+  }
+  
+  
+//   .cards-slider {
+//     // position: relative;
+//     max-width: 226px;
+//     margin: 0 auto;
+//     .card {
+//       flex: 1;
+//     }
+//     &:after {
+//       content: '';
+//       display: block;
+//       width: 100%;
+//       height: 165px;
+//       outline: 5px solid #61DAFB;
+//     //   position: absolute;
+//       top: 0; 
+//       left: 0;
+//     }
+//   }
+//   /* #endregion */
