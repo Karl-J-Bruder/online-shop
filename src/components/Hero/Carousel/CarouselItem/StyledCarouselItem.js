@@ -10,6 +10,7 @@ export const StyledWrapper = styled.div`
 export const StyledHeroH2 = styled.h2`
     color: white;
     font-size: 2rem;
+    text-shadow: 1px 1px 5px black;
 
     @media (min-width: ${({ theme }) => theme.screenXLrg}) {
         font-size: 3rem;
@@ -19,6 +20,7 @@ export const StyledHeroH2 = styled.h2`
 export const StyledHeroH3 = styled.h3`
     color: white;
     font-size: 1.75rem;
+    text-shadow: 1px 1px 5px black;
 
     @media (min-width: ${({ theme }) => theme.screenXLrg}) {
         font-size: 2.5rem;

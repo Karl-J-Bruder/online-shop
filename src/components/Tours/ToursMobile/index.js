@@ -29,7 +29,7 @@ const ToursMobile = () => {
                                 </ul>
                             </StyledTableCell>
                         </StyledTableRowEven>
-                        <StyledTableRowOdd><td>Schedule</td></StyledTableRowOdd>
+                        <StyledTableRowOdd><StyledTableCell>Schedule</StyledTableCell></StyledTableRowOdd>
                         <StyledTableRowEven>
                             <StyledTableCell>
                                 <p>{tour.frequency}, starting at:</p>

@@ -13,13 +13,6 @@ const Hero = () => {
                 button: "Start Looking",
                 route: "/products"
             }} />
-            <Static value={{
-                title: "Sets",
-                subtitle: "Packs of 3 or more sakes based on themes",
-                img: "(https://st2.depositphotos.com/1002114/7338/i/950/depositphotos_73386941-stock-photo-japanese-sake-bottles-displayed.jpg)",
-                button: "View our suggestions",
-                route: "/sake-sets"
-            }} />
         </div>
     )
 };

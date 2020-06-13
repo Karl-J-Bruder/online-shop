@@ -4,25 +4,25 @@ const CarouselData = {
             "id": "001",
             "index": 0,
             "title": "Now in Stock:",
-            "subtitle": "Winter sake collection",
-            "img": "(https://craviton.com/images/up/user/image/%E8%A7%92%E5%8F%A3%E9%85%92%E9%80%A0%E5%BA%97%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%EF%BC%91.png)",
-            "route": "/seasonal-collection"
+            "subtitle": "New Sake",
+            "img": "(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg1.etsystatic.com%2F000%2F0%2F5415156%2Fil_fullxfull.59019533.jpg&f=1&nofb=1)",
+            "route": "/products"
         },
         {
             "id": "002",
             "index": 1,
             "title": "Brewery Tours",
             "subtitle": "Visiting Japan? Come tour a brewery!",
-            "img": "(https://www.shushinkan.co.jp/image/kurakengaku-sec01-img03.jpg)",
+            "img": "(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.nippon.com%2Fen%2Fncommon%2Fcontents%2Fjapan-data%2F138486%2F138486.jpg&f=1&nofb=1)",
             "route": "/tours"
         },
         {
             "id": "003",
             "index": 2,
-            "title": "Holiday Sale",
-            "subtitle": "Buy one bottle, get the second 1/2 off!",
-            "img": "(https://www.whenguide.com/wp-content/uploads/2010/04/christmas-sale-600x300.jpg)",
-            "route": "/holiday-sale"
+            "title": "Visit Our Blog",
+            "subtitle": "Learn everything there is to know about sake",
+            "img": "(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg0.etsystatic.com%2F000%2F0%2F5415156%2Fil_fullxfull.125005212.jpg&f=1&nofb=1)",
+            "route": "https://sake-world.com/"
         }
     ]
 }

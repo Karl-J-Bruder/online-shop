@@ -28,7 +28,7 @@ export const RRLActiveStyle = {
 export const HeaderLinkStyle = {
     backgroundColor: `${theme.themeRed}`,
     color: `${theme.primaryLight}`,
-    fontSize: window.innerWidth < 950 ? "1.75rem" : "2.5rem",
+    fontSize: window.innerWidth < 950 ? "1.5rem" : "2.5rem",
     height: window.innerWidth < 950 ? "35px" : "50px",
     padding: "5px",
     width: "33.3%"

@@ -9,12 +9,13 @@ const CarouselItem = ({ feature }) => {
         backgroundSize: "cover",
         height: "100%",
         minHeight: "100%",
+
     }
     return (
         <div id={`card-${index}`} className="card" index={index} style={imgStyle}>
             <StyledHeroH2>{title}</StyledHeroH2>
             <StyledHeroH3>{subtitle}</StyledHeroH3>
-            <Link to={route}><StyledHeroButton>Learn More</StyledHeroButton></Link>
+            <a href={route}><StyledHeroButton>Learn More</StyledHeroButton></a>
         </div>
     )
 };

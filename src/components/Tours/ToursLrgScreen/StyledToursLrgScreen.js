@@ -27,6 +27,7 @@ export const StyledTableRowOdd = styled.tr`
     background-color: ${({ theme }) => theme.themeRed};
     border: 2px solid #ea0000;
     color: white;
+    font-size: 2rem;
     font-weight: bold;
     height: 50px;
     min-height: 100px;
@@ -35,6 +36,7 @@ export const StyledTableRowOdd = styled.tr`
 `;
 
 export const StyledTableRowEven = styled.tr`
+    font-size: 1.5rem;
     margin-left: 25px;
     text-align: left;
 `;
@@ -44,6 +46,7 @@ export const StyledTableCell = styled.p`
     border-right: 2px solid #ea0000;
     display: flex;
     flex-direction: column;
+    font-size: 1.5rem;
     justify-content: center;
     min-height: 50px;
     padding-left: 15px;

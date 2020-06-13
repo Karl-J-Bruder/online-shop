@@ -8,9 +8,7 @@ const HomePage = () => {
     return (
         <div>
             <Hero />
-            {swiperSections.map((index) => (
-                <ProductSwiper sectionTitle={swiperSections[index]} index={index} />
-            ))}
+            <ProductSwiper />
             <SocialContainer />
         </div>
     );

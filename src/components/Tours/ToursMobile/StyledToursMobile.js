@@ -27,8 +27,10 @@ export const StyledTableRowOdd = styled.tr`
     background-color: ${({ theme }) => theme.themeRed};
     border: 2px solid #ea0000;
     color: white;
+    font-size: 1.5rem;
     font-weight: bold;
     height: 50px;
+    margin-left: 15px;
     min-height: 100px;
     padding: 5px 0 5px 5px;
     text-align: left;

@@ -9,10 +9,9 @@ const ProductSwiper = (props) => {
     // Create copy of products array to split over two Slider components
     // (In a real-world setting, items would be selected on sales #s, pageviews, etc.)
     const swiperArray = [...products];
-    const bestSellers = swiperArray.slice(0, 4);
-    const seasonalPicks = swiperArray.slice(4, 8);
-
-    const sectionTitle = props.sectionTitle;
+    console.log(swiperArray)
+    const bestSellers = [swiperArray[0], swiperArray[1], swiperArray[2], swiperArray[3]];
+    const seasonalPicks = [swiperArray[4], swiperArray[5], swiperArray[6], swiperArray[7]];
 
     // Slider properties
     const params = {
@@ -35,52 +34,28 @@ const ProductSwiper = (props) => {
     };
     return (
         <div>
-            <StyledSectionTitle>{sectionTitle}</StyledSectionTitle>
-            {props.index === 0 ?
-                <Swiper {...params}>
-                    {bestSellers.map((product, index) => (
-                        <div
-                            className="swiper-slide"
-                            style={{ height: "210px" }}
-                            key={index}
-                            name={product.name}
-                            brewer={product.brewer}
-                        >
-                            <Link to={`/products/:${product.sku}`}>
-                                <img
-                                    src={`/images/${product.sku}.jpg`}
-                                    alt=""
-                                    style={{ width: "100px", height: "100px" }}
-                                ></img>
-                            </Link>
-                            <StyledSwiperDescription>{product.name}</StyledSwiperDescription>
-                            <StyledSwiperDescription>{product.displayPrice}</StyledSwiperDescription>
-                        </div>
-                    ))}
-                </Swiper>
-                :
-                <Swiper {...params}>
-                    {seasonalPicks.map((product, index) => (
-                        <div
-                            className="swiper-slide"
-                            style={{ height: "210px" }}
-                            key={index}
-                            name={product.name}
-                            brewer={product.brewer}
-                        >
-                            <Link to={`/products/:${product.sku}`}>
-                                <img
-                                    src={`/images/${product.sku}.jpg`}
-                                    alt=""
-                                    style={{ width: "100px", height: "100px" }}
-                                ></img>
-                            </Link>
-                            <StyledSwiperDescription>{product.name}</StyledSwiperDescription>
-                            <StyledSwiperDescription>{product.displayPrice}</StyledSwiperDescription>
-                        </div>
-                    ))}
-                </Swiper>
-            }
+            <StyledSectionTitle>Popular Items</StyledSectionTitle>
+            <Swiper {...params}>
+                {bestSellers.map((product, index) => (
+                    <div
+                        className="swiper-slide"
+                        style={{ height: "210px" }}
+                        key={index}
+                        name={product.name}
+                        brewer={product.brewer}
+                    >
+                        <Link to={`/products/:${product.sku}`}>
+                            <img
+                                src={`/images/${product.sku}.jpg`}
+                                alt=""
+                                style={{ width: "100px", height: "100px" }}
+                            ></img>
+                        </Link>
+                        <StyledSwiperDescription>{product.name}</StyledSwiperDescription>
+                        <StyledSwiperDescription>{product.displayPrice}</StyledSwiperDescription>
+                    </div>
+                ))}
+            </Swiper>
         </div>
     );
 };

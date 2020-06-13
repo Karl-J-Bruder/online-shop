@@ -19,7 +19,7 @@
   @for $i from 0 through 3 {
     .single-window-slider.active-slide-#{$i} #card-#{$i} {
       display: block;
-    }
+  
   }
   
   $i: 0;
@@ -41,24 +41,3 @@
   .card-slider.active-slide-2 #card-2 {
     display: block;
   }
-  
-  
-//   .cards-slider {
-//     // position: relative;
-//     max-width: 226px;
-//     margin: 0 auto;
-//     .card {
-//       flex: 1;
-//     }
-//     &:after {
-//       content: '';
-//       display: block;
-//       width: 100%;
-//       height: 165px;
-//       outline: 5px solid #61DAFB;
-//     //   position: absolute;
-//       top: 0; 
-//       left: 0;
-//     }
-//   }
-//   /* #endregion */
