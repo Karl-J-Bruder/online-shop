@@ -8,20 +8,20 @@ const SiteMap = () => {
         <StyledSiteMapContainer>
             <StyledSiteMapSection>
                 <StyledSectionTitle>Shop</StyledSectionTitle>
-                <StyledSectionItem href="https://cocky-leavitt-91e50b.netlify.app/products">Browse Sakes</StyledSectionItem>
-                <StyledSectionItem href="https://cocky-leavitt-91e50b.netlify.app/tours">Tours</StyledSectionItem>
+                <StyledSectionItem href="/products">Browse Sakes</StyledSectionItem>
+                <StyledSectionItem href="/tours">Tours</StyledSectionItem>
             </StyledSiteMapSection>
             <StyledSiteMapSection>
                 <StyledSectionTitle>About Us</StyledSectionTitle>
-                <StyledSectionItem href="https://cocky-leavitt-91e50b.netlify.app/staff">Staff</StyledSectionItem>
-                <StyledSectionItem href="https://cocky-leavitt-91e50b.netlify.app/mailing-list">Join our mailing list</StyledSectionItem>
+                <StyledSectionItem href="/staff">Staff</StyledSectionItem>
+                <StyledSectionItem href="/mailing-list">Join our mailing list</StyledSectionItem>
                 <StyledSectionItem href="https://sake-world.com">Our blog</StyledSectionItem>
             </StyledSiteMapSection>
             <StyledSiteMapSection>
                 <StyledSectionTitle>Customer Service</StyledSectionTitle>
-                <StyledSectionItem href="https://cocky-leavitt-91e50b.netlify.app/contact">Contact us</StyledSectionItem>
-                <StyledSectionItem href="https://cocky-leavitt-91e50b.netlify.app/shipping">Shipping policies</StyledSectionItem>
-                <StyledSectionItem href="https://cocky-leavitt-91e50b.netlify.app/terms-and-conditions">Terms and Conditions</StyledSectionItem>
+                <StyledSectionItem href="/contact">Contact us</StyledSectionItem>
+                <StyledSectionItem href="/shipping">Shipping policies</StyledSectionItem>
+                <StyledSectionItem href="/terms-and-conditions">Terms and Conditions</StyledSectionItem>
             </StyledSiteMapSection>
             <StyledSiteMapSection>
                 <StyledSectionTitle>Follow us</StyledSectionTitle>
